@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleTech | Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Purple<span>Tech</span></h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner animated-bg">
+        <div class="container">
+            <div class="banner-content animate-fade-in">
+                <h1>Our Products</h1>
+                <p>Cutting-edge solutions designed for modern businesses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <h2 class="section-title animate-slide-up">Browse by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card animate-slide-up">
+                    <div class="category-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Software Solutions</h3>
+                    <a href="#software" class="category-link">View Products</a>
+                </div>
+                <div class="category-card animate-slide-up delay-1">
+                    <div class="category-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Services</h3>
+                    <a href="#cloud" class="category-link">View Products</a>
+                </div>
+                <div class="category-card animate-slide-up delay-2">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Tools</h3>
+                    <a href="#security" class="category-link">View Products</a>
+                </div>
+                <div class="category-card animate-slide-up delay-3">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics Platforms</h3>
+                    <a href="#analytics" class="category-link">View Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll hover-lift">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/6a0dad/ffffff?text=PurpleCRM" alt="PurpleCRM">
+                    </div>
+                    <div class="product-content">
+                        <h3>PurpleCRM</h3>
+                        <p class="product-category">Software Solutions</p>
+                        <p class="product-description">A comprehensive customer relationship management system designed for growing businesses.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Cloud-based</span>
+                            <span><i class="fas fa-check"></i> Mobile App</span>
+                            <span><i class="fas fa-check"></i> Analytics</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$29.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="#" class="btn btn-outline">Try Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll hover-lift">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4b0082/ffffff?text=SecureVault" alt="SecureVault">
+                    </div>
+                    <div class="product-content">
+                        <h3>SecureVault</h3>
+                        <p class="product-category">Security Tools</p>
+                        <p class="product-description">Enterprise-grade security solution for protecting sensitive data and preventing breaches.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Encryption</span>
+                            <span><i class="fas fa-check"></i> Threat Detection</span>
+                            <span><i class="fas fa-check"></i> Compliance</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$49.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="#" class="btn btn-outline">Try Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll hover-lift">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/9b59b6/ffffff?text=DataInsight" alt="DataInsight">
+                    </div>
+                    <div class="product-content">
+                        <h3>DataInsight</h3>
+                        <p class="product-category">Analytics Platforms</p>
+                        <p class="product-description">Advanced analytics platform that transforms your data into actionable business insights.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Real-time</span>
+                            <span><i class="fas fa-check"></i> Visualization</span>
+                            <span><i class="fas fa-check"></i> AI-powered</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$39.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="#" class="btn btn-outline">Try Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Sections -->
+    <section id="software" class="product-section">
+        <div class="container">
+            <h2 class="section-title">Software Solutions</h2>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/6a0dad/ffffff?text=PurpleCRM" alt="PurpleCRM">
+                    </div>
+                    <div class="product-content">
+                        <h3>PurpleCRM</h3>
+                        <p class="product-description">A comprehensive customer relationship management system.</p>
+                        <div class="product-price">
+                            <span class="price">$29.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/6a0dad/ffffff?text=ProjectFlow" alt="ProjectFlow">
+                    </div>
+                    <div class="product-content">
+                        <h3>ProjectFlow</h3>
+                        <p class="product-description">Project management software for teams of all sizes.</p>
+                        <div class="product-price">
+                            <span class="price">$24.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/6a0dad/ffffff?text=HRMaster" alt="HRMaster">
+                    </div>
+                    <div class="product-content">
+                        <h3>HRMaster</h3>
+                        <p class="product-description">Complete human resources management solution.</p>
+                        <div class="product-price">
+                            <span class="price">$34.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cloud" class="product-section">
+        <div class="container">
+            <h2 class="section-title">Cloud Services</h2>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4b0082/ffffff?text=CloudStore" alt="CloudStore">
+                    </div>
+                    <div class="product-content">
+                        <h3>CloudStore</h3>
+                        <p class="product-description">Secure cloud storage solution for businesses.</p>
+                        <div class="product-price">
+                            <span class="price">$19.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4b0082/ffffff?text=ServerLess" alt="ServerLess">
+                    </div>
+                    <div class="product-content">
+                        <h3>ServerLess</h3>
+                        <p class="product-description">Serverless computing platform for modern applications.</p>
+                        <div class="product-price">
+                            <span class="price">$39.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4b0082/ffffff?text=CloudBackup" alt="CloudBackup">
+                    </div>
+                    <div class="product-content">
+                        <h3>CloudBackup</h3>
+                        <p class="product-description">Automated backup solution for all your data.</p>
+                        <div class="product-price">
+                            <span class="price">$14.99</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card animate-fade-in">
+                    <div class="testimonial-content">
+                        <p>"PurpleTech's products have transformed our business operations. The intuitive interfaces and powerful features have increased our productivity by 40%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/60x60" alt="Ali Murtaza">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ali Murtaza</h4>
+                            <p>CEO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content animate-zoom-in">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Explore our products and find the perfect solution for your needs.</p>
+                <a href="contact.html" class="btn btn-primary">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>PurpleTech</h3>
+                    <p>Innovating the future with cutting-edge technology solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">Cloud Solutions</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Digital City</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@purpletech.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PurpleTech. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
